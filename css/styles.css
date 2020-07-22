@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+nav,  .method{
+  background-image: url('../img/home-image.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  opacity: 0.9;
+}
+.method{
+  min-height: 575px;
+}
+.carousel-indicators li{
+  background-color: red;
+}
+.carousel-control-next, .carousel-control-prev{
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 50%;
+}
+.carousel-control-prev{
+  left: 40px;
+}
+.carousel-control-next{
+  right: 40px;
+}
